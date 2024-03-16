@@ -10,7 +10,7 @@ function App() {
 
   return (
     <>
-      <BrowserRouter basename='/reactbootstrapbasico2'>
+      <BrowserRouter basename='/reactbootstrapbasico2/'>
         <Header/>
         <Routes>
           <Route path="/" element={<Inicio/>} />
